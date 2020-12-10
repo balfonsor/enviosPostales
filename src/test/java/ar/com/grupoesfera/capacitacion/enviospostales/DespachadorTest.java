@@ -53,7 +53,7 @@ public class DespachadorTest {
     public void debeMostrarVariableEntornoCommission(){
         String property = System.getProperty("comision");
         //System.out.println("Property: " + property);
-        assertEquals(property,"11");
+        assertEquals(property,"10");
     }
 }
 
