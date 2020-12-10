@@ -48,5 +48,12 @@ public class DespachadorTest {
         double costoesperado = 50 * 1.1;
         assertEquals(costoesperado, costo, 0.0001);
     }
+
+    @Test
+    public void debeMostrarVariableEntornoCommission(){
+        String property = System.getProperty("comision");
+        //System.out.println("Property: " + property);
+        assertEquals(property,"11");
+    }
 }
 

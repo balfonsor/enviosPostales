@@ -5,6 +5,11 @@
   <groupId>ar.com.grupoesfera.capacitacion</groupId>
   <artifactId>envios-postales</artifactId>
   <version>1.0.0</version>
+  <properties>
+    <comision>
+      10
+    </comision>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>org.mockito</groupId>
